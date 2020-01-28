@@ -24,11 +24,11 @@ public class ViewMenus {
             + "[4] Exit system\n\n"
             );
     
-    System.out.print("Choice  : ");
+    System.out.print("Choice: ");
      Scanner scan = new Scanner(System.in);
      char choice = scan.next().charAt(0);
-     
-    switch(choice){
+
+     switch(choice){
         
         case '1': 
         return '1';
@@ -42,6 +42,7 @@ public class ViewMenus {
     
    
     }
+     
     return 'X';
     }
     
@@ -49,16 +50,16 @@ public class ViewMenus {
       System.out.println
             ( "\n\n"
             + "=============================\n"
-            + "   Edit Inventory\n"
+            + "       Edit Inventory\n"
             + "=============================\n"
-            + "[1] View\n"
-            + "[2] Add\n"
-            + "[3] Reduce\n"
+            + "[1] View Inventory\n"
+            + "[2] Add to Inventory\n"
+            + "[3] Reduce from Inventory\n"
             + "=============================\n"
             + "[4] Return to menu\n\n"
             );
     
-    System.out.print("Choice  : ");
+    System.out.print("Choice: ");
      Scanner scan = new Scanner(System.in);
      char choice = scan.next().charAt(0);
      
@@ -83,7 +84,7 @@ public class ViewMenus {
       System.out.println
             ( "\n\n"
             + "=============================\n"
-            + "   Add Inventory\n"
+            + "        Add Inventory        \n"
             + "=============================\n"
             + "[1] Concrete\n"
             + "[2] Steel\n"
@@ -92,7 +93,7 @@ public class ViewMenus {
             + "[4] Return to menu\n\n"
             );
     
-    System.out.print("Choice  : ");
+    System.out.print("Choice: ");
      Scanner scan = new Scanner(System.in);
      char choice = scan.next().charAt(0);
      
@@ -117,7 +118,7 @@ public class ViewMenus {
       System.out.println
             ( "\n\n"
             + "=============================\n"
-            + "   Reduce Inventory\n"
+            + "     Reduce from Inventory   \n"
             + "=============================\n"
             + "[1] Concrete\n"
             + "[2] Steel\n"
@@ -126,7 +127,7 @@ public class ViewMenus {
             + "[4] Return to menu\n\n"
             );
     
-    System.out.print("Choice  : ");
+    System.out.print("Choice: ");
      Scanner scan = new Scanner(System.in);
      char choice = scan.next().charAt(0);
      
