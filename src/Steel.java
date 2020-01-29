@@ -8,27 +8,6 @@
  *
  * @author Pryce
  */
-public class Steel extends Mainclass implements NewInterface {
-    
-     
-    int quantity;
-    int addQty;
-    int subQty;
-    
-    @Override
-    public void addInventory(int a){
-    quantity=quantity+a;
-    }
-    
-    @Override
-    public void subtractInventory(int a){
-    quantity=quantity-a;
-    }
-    
-    @Override
-    public void viewInventory(){
-    System.out.print(quantity);
-    }
-    
-    
+public class Steel extends Item {
+
 }

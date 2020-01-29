@@ -25,8 +25,8 @@ public class ViewMenus {
             );
     
     System.out.print("Choice: ");
-     Scanner scan = new Scanner(System.in);
-     char choice = scan.next().charAt(0);
+     Scanner mScan = new Scanner(System.in);
+     char choice = mScan.next().charAt(0);
 
      switch(choice){
         
@@ -47,7 +47,7 @@ public class ViewMenus {
     }
     
     public char editInventoryMenu(){
-      System.out.println
+        System.out.println
             ( "\n\n"
             + "=============================\n"
             + "       Edit Inventory\n"
@@ -58,93 +58,93 @@ public class ViewMenus {
             + "=============================\n"
             + "[4] Return to menu\n\n"
             );
-    
-    System.out.print("Choice: ");
-     Scanner scan = new Scanner(System.in);
-     char choice = scan.next().charAt(0);
-     
-    switch(choice){
-        
-        case '1': 
-        return '1';
-        case '2':
-        return '2';
-        case '3':
-        return '3';
-        case '4':
-        return '4';
-      
-    
-   
+
+        System.out.print("Choice: ");
+        Scanner eScan = new Scanner(System.in);
+        char choice = eScan.next().charAt(0);
+
+        switch(choice){
+
+            case '1': 
+            return '1';
+            case '2':
+            return '2';
+            case '3':
+            return '3';
+            case '4':
+            return '4';
+
+
+
+        }
+        return 'X';  
     }
+    
+    public char addInventoryMenu(){
+        System.out.println
+                ( "\n\n"
+                + "=============================\n"
+                + "        Add Inventory        \n"
+                + "=============================\n"
+                + "[1] Concrete\n"
+                + "[2] Steel\n"
+                + "[3] Lumber\n"
+                + "=============================\n"
+                + "[4] Return to menu\n\n"
+                );
+
+        System.out.print("Choice: ");
+         Scanner aScan = new Scanner(System.in);
+         char choice = aScan.next().charAt(0);
+
+        switch(choice){
+
+            case '1': 
+            return '1';
+            case '2':
+            return '2';
+            case '3':
+            return '3';
+            case '4':
+            return '4';
+
+
+
+        }
     return 'X';  
     }
-    
-        public char addInventoryMenu(){
-      System.out.println
-            ( "\n\n"
-            + "=============================\n"
-            + "        Add Inventory        \n"
-            + "=============================\n"
-            + "[1] Concrete\n"
-            + "[2] Steel\n"
-            + "[3] Lumber\n"
-            + "=============================\n"
-            + "[4] Return to menu\n\n"
-            );
-    
-    System.out.print("Choice: ");
-     Scanner scan = new Scanner(System.in);
-     char choice = scan.next().charAt(0);
-     
-    switch(choice){
         
-        case '1': 
-        return '1';
-        case '2':
-        return '2';
-        case '3':
-        return '3';
-        case '4':
-        return '4';
-      
-    
-   
-    }
-    return 'X';  
-    }
-        
-            public char subInventoryMenu(){
-      System.out.println
-            ( "\n\n"
-            + "=============================\n"
-            + "     Reduce from Inventory   \n"
-            + "=============================\n"
-            + "[1] Concrete\n"
-            + "[2] Steel\n"
-            + "[3] Lumber\n"
-            + "=============================\n"
-            + "[4] Return to menu\n\n"
-            );
-    
-    System.out.print("Choice: ");
-     Scanner scan = new Scanner(System.in);
-     char choice = scan.next().charAt(0);
-     
-    switch(choice){
-        
-        case '1': 
-        return '1';
-        case '2':
-        return '2';
-        case '3':
-        return '3';
-        case '4':
-        return '4';
-      
-    
-   
-    }
-    return 'X';  
+    public char subInventoryMenu(){
+        System.out.println
+                ( "\n\n"
+                + "=============================\n"
+                + "     Reduce from Inventory   \n"
+                + "=============================\n"
+                + "[1] Concrete\n"
+                + "[2] Steel\n"
+                + "[3] Lumber\n"
+                + "=============================\n"
+                + "[4] Return to menu\n\n"
+                );
+
+        System.out.print("Choice: ");
+         Scanner rScan = new Scanner(System.in);
+         char choice = rScan.next().charAt(0);
+
+        switch(choice){
+
+            case '1': 
+            return '1';
+            case '2':
+            return '2';
+            case '3':
+            return '3';
+            case '4':
+            return '4';
+
+
+
+        }
+        return 'X';  
     }
 }

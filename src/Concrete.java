@@ -8,26 +8,8 @@
  *
  * @author Pryce
  */
-public class Concrete extends Mainclass implements NewInterface{
+public class Concrete extends Item{
     
-    int quantity;
-    int addQty;
-    int subQty;
-    
-    
-    @Override
-    public void addInventory(int a){
-    quantity=quantity+a;
-    }
-    
-    @Override
-    public void subtractInventory(int a){
-    quantity=quantity-a;
-    }
-    
-    @Override
-    public void viewInventory(){
-    System.out.print(quantity);
-    }
+
     
 }
